@@ -1,64 +1,30 @@
 
-/* Styles tha are in all of the pages */
+/* Universal Styles*/
 body {
     font-family: Arial, sans-serif;
     font-size: 13px;
     margin: auto;   
+    margin-right: 0px;
     
-}
-
-/*Google Search page styles*/
-
-input[type=text] {   
-    color: #f2f2f2;
-    width: 560px;
-    height: 40px;
-    padding-top: 5px;
-    padding-right: 8px;
-    padding-left: 14px;
-    border-width: 1px;
-    border-radius: 20px;
 }
 
 div {
     border-style: solid;
-    border-color: cadetblue;
+    border-color: salmon;
 }
-
-
-input[type=submit], button {
-    height: 36px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin: 11px 4px;
+.footer {
     background-color: #f2f2f2;
-    color: #5f6368;
-    border-radius: 4px;
-    border-style: none ;
-
+    height: 80px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0;
+     
 }
 
-input[type=submit]:hover, button:hover  {
-    color: #222222;
-    background-color: #f8f8f8;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px;
-}
-
-#google-search-logo {
-    height: 216px;
-    width: 384px;
-    padding-top: 50px;
-}
-
-
-
-.my-pic-row {
-    height: 300px;
-}
-
-.my-fill-row {
-    height: 350px;
+.my-foot-link {
+    padding-left: 40px;
 }
 
 .my-nav-link{
@@ -72,44 +38,126 @@ input[type=submit]:hover, button:hover  {
     color: black;
 }
 
-.input-bar {
-    height: 140px;
+/*Nav links margin*/
+#top-bar {
+    margin-right: 0;
+}
+
+
+/*Search and Picture Search buttons and input styles*/
+
+.search-input-text {   
+    color: #f2f2f2;
+    width: 560px;
+    height: 40px;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-left: 14px;
+    border-width: 1px;
+    border-radius: 20px;
 }
 
 
 
-.footer {
+.search-submit {
+    height: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 11px 4px;
     background-color: #f2f2f2;
-    height: 80px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    margin-left: 0;
+    color: #5f6368;
+    border-radius: 4px;
+    border-style: none ;
 
-     
 }
 
-.my-foot-link {
-    padding-left: 40px;
+.search-submit:hover {
+    color: #222222;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px;
 }
 
-/*Google Image Search page*/
+
+
+/*Search and Picture page logo container*/
+.my-pic-row-height {
+    height: 300px;
+}
+
+/*Search page logo style */
+#google-search-logo {
+    height: 200px;
+    width: 300px;
+    padding-top: 50px;
+}
+
+
+/*Image Search page style*/
 .image.cont {
    width: 200px;
    height: 90px;
    margin-bottom: 10px;
 }
 
-#top-bar {
-    margin-right: 0;
+
+
+/*Advanced Search page styles*/
+
+.find-pages-header {
+    font-size: 16px;
 }
 
-/*advanced google search page*/
+.information-header {
+    font-size: 13px;
+    color: #777777;
+    font-weight: bold;
+}
 .adv-nav-bar {
     height: 60px;
     background-color: #f2f2f2;
     
+}
+
+.adv-forn-container {
+    
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.label-column{
+    text-align: left;
+
+}
+
+.adv-text-input {
+    width: 550px;
+    height: 25px;
+    padding: 1px 8px;
+    font-size: 13px;
+    border-radius: 0%;
+}
+
+.adv-submit {
+    height: 30px;
+    width: 120px;
+    background-color: #4d90fe;
+    color: #ffffff;
+    border-radius: 2px;
+    border-style: none;
+    padding: 0px 12px;
+    margin: 10px 0px;
+    font-size: 11px;
+    line-height: 11px;
+    
+}
+
+.adv-submit:hover {
+    background-color: #357ae8;
+}
+
+.adv-submit:focus {
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset;
 }
 
 #adv-nav-bar-image{
@@ -123,4 +171,8 @@ h2 {
     padding-left: 10px;
     margin: 25px 35px;
     
+}
+
+.more-info-text {
+    font-size: 11px;
 }

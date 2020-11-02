@@ -15,22 +15,93 @@
         
         <ul class="nav">
             <li class="nav-item my-nav-item align-self-end">
-              <a class="nav-link active my-nav-link" href="pic-search.html">Google Picture Search</a>
+              <a class="nav-link active my-nav-link" href="index.html">Google Search</a>
             </li>
             <li class="nav-item my-nav-item align-self-end">
-              <a class="nav-link my-nav-link" href="advanced-search.html"> Google Advanced Search</a>
+              <a class="nav-link my-nav-link" href="pic-search.html"> Google Picture Search</a>
             </li>
           </ul>            
     </div>
 
-<div></div>
+
     <div class="row border-bottom ">
         <h2>Advanced Search</h2>
     </div>
 
-    <div class="container">
-        <form action="">
-            
+    <div class="adv-forn-container border-bottom">
+
+        <form action="https://www.google.com/search">
+
+            <div class="row">
+                <div class="col-2 find-pages-header"><p>Find pages with...</p></div>
+                <div class="col-3"></div>
+                <div class="col information-header"><p>To do this in the search box.</p></div>
+
+                
+            </div>
+
+
+
+
+
+            <div class="row">
+                <div class="label-column col-2">
+                    <label for="important-words">all these words:</label>
+                </div>
+                <div class="col-4">
+                    <input class="adv-text-input form-control shadow-sm" type="text" name="as_q" id="important-words">
+                </div>
+                <div class="col">
+                    <p class="more-info-text">Type the important words: tri-colour rat terrier</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-start">
+                <div class="label-column col-2">
+                    <label for="exact-words">this exact word or phrase:</label>
+                </div>
+                <div class="col-4">
+                    <input class="adv-text-input form-control shadow-sm" type="text" name="as_epq" id="exact-words">
+                </div>
+                <div class="col">
+                    <p class="more-info-text">Put exact words in quotes: "rat terrier"</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-start">
+                <div class="label-column col-2">
+                    <label for="any-words">any of these words:</label>
+                </div>
+                <div class="col-4">
+                     <input class="adv-text-input form-control shadow-sm" type="text" name="as_oq" id="any-words">
+                </div>
+                <div class="col">
+                    <p class="more-info-text">Type OR between all the words you want: miniature OR standard</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-start">
+                <div class="label-column col-2">
+                    <label for="none-of-these">none of these words:</label>
+                </div>
+                <div class="col-4">
+                    <input class="adv-text-input form-control shadow-sm" type="text" name="as_eq" id="none-of-these">
+                </div>
+                <div class="col">
+                    <p class="more-info-text">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+                </div>
+            </div>
+
+
+            <div class="row ">
+                <div class="col-1 "></div>
+                <div class="col-4">
+                    <input class="adv-submit" type="submit" value="Advanced Search">
+                </div>
+                <div class="col"></div>
+            </div>
+
+
         </form>
 
     </div>

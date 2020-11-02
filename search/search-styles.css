@@ -1,4 +1,10 @@
 
+@media (max-width: 1500px) {
+    .more-info-text {
+        display: none;
+    }
+}
+
 /* Universal Styles*/
 body {
     font-family: Arial, sans-serif;
@@ -7,10 +13,18 @@ body {
     margin-right: 0px;
     
 }
-
-div {
+/*
+div{
     border-style: solid;
     border-color: salmon;
+}
+*/
+h2 {
+    font-size: 20px;
+    color: #d93025;
+    padding-left: 10px;
+    margin: 25px 35px;
+    
 }
 .footer {
     background-color: #f2f2f2;
@@ -21,6 +35,11 @@ div {
     width: 100%;
     margin-left: 0;
      
+}
+
+span {
+    font-family: monospace;
+    color: #666666;
 }
 
 .my-foot-link {
@@ -38,10 +57,7 @@ div {
     color: black;
 }
 
-/*Nav links margin*/
-#top-bar {
-    margin-right: 0;
-}
+
 
 
 /*Search and Picture Search buttons and input styles*/
@@ -106,6 +122,7 @@ div {
 
 .find-pages-header {
     font-size: 16px;
+    text-align: end;
 }
 
 .information-header {
@@ -118,7 +135,6 @@ div {
     background-color: #f2f2f2;
     
 }
-
 .adv-forn-container {
     
     margin-left: 50px;
@@ -126,16 +142,22 @@ div {
 }
 
 .label-column{
-    text-align: left;
+ text-align: right;
 
+}
+
+.more-info-text {
+    font-size: 11px;
+    color: #666666;
 }
 
 .adv-text-input {
     width: 550px;
-    height: 25px;
+    height: 30px;
     padding: 1px 8px;
     font-size: 13px;
     border-radius: 0%;
+    margin-bottom: 15px;
 }
 
 .adv-submit {
@@ -160,19 +182,14 @@ div {
     box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px inset;
 }
 
+
+/*advanced search page google logo*/
 #adv-nav-bar-image{
     padding-left: 30px;
     padding-top: 5px;
 }
 
-h2 {
-    font-size: 20px;
-    color: #d93025;
-    padding-left: 10px;
-    margin: 25px 35px;
-    
-}
-
-.more-info-text {
-    font-size: 11px;
+/*Nav links margin*/
+#top-bar {
+    margin-right: 0;
 }

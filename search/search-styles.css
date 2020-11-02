@@ -1,0 +1,126 @@
+
+/* Styles tha are in all of the pages */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: auto;   
+    
+}
+
+/*Google Search page styles*/
+
+input[type=text] {   
+    color: #f2f2f2;
+    width: 560px;
+    height: 40px;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-left: 14px;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+div {
+    border-style: solid;
+    border-color: cadetblue;
+}
+
+
+input[type=submit], button {
+    height: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 11px 4px;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    border-radius: 4px;
+    border-style: none ;
+
+}
+
+input[type=submit]:hover, button:hover  {
+    color: #222222;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px;
+}
+
+#google-search-logo {
+    height: 216px;
+    width: 384px;
+    padding-top: 50px;
+}
+
+
+
+.my-pic-row {
+    height: 300px;
+}
+
+.my-fill-row {
+    height: 350px;
+}
+
+.my-nav-link{
+  color: black;  
+}
+
+.my-nav-link:hover
+ {
+    text-decoration: underline;
+    opacity: 87%;
+    color: black;
+}
+
+.input-bar {
+    height: 140px;
+}
+
+
+
+.footer {
+    background-color: #f2f2f2;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0;
+
+     
+}
+
+.my-foot-link {
+    padding-left: 40px;
+}
+
+/*Google Image Search page*/
+.image.cont {
+   width: 200px;
+   height: 90px;
+   margin-bottom: 10px;
+}
+
+#top-bar {
+    margin-right: 0;
+}
+
+/*advanced google search page*/
+.adv-nav-bar {
+    height: 60px;
+    background-color: #f2f2f2;
+    
+}
+
+#adv-nav-bar-image{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #d93025;
+    padding-left: 10px;
+    margin: 25px 35px;
+    
+}

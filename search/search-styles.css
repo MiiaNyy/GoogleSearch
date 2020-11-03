@@ -13,12 +13,7 @@ body {
     margin-right: 0px;
     
 }
-/*
-div{
-    border-style: solid;
-    border-color: salmon;
-}
-*/
+
 h2 {
     font-size: 20px;
     color: #d93025;
@@ -26,6 +21,12 @@ h2 {
     margin: 25px 35px;
     
 }
+
+span {
+    font-family: monospace;
+    color: #666666;
+}
+/*Footer styles*/
 .footer {
     background-color: #f2f2f2;
     height: 80px;
@@ -37,15 +38,12 @@ h2 {
      
 }
 
-span {
-    font-family: monospace;
-    color: #666666;
-}
-
 .my-foot-link {
     padding-left: 40px;
 }
 
+
+/*Navigation styles*/
 .my-nav-link{
   color: black;  
 }
@@ -60,8 +58,7 @@ span {
 
 
 
-/*Search and Picture Search buttons and input styles*/
-
+/*Search and image Search buttons and input styles*/
 .search-input-text {   
     color: #f2f2f2;
     width: 560px;
@@ -72,8 +69,6 @@ span {
     border-width: 1px;
     border-radius: 20px;
 }
-
-
 
 .search-submit {
     height: 36px;
@@ -101,7 +96,9 @@ span {
     height: 300px;
 }
 
-/*Search page logo style */
+
+
+/*Search page logo style*/
 #google-search-logo {
     height: 200px;
     width: 300px;
@@ -109,7 +106,7 @@ span {
 }
 
 
-/*Image Search page style*/
+/*Image Search logo style*/
 .image.cont {
    width: 200px;
    height: 90px;
@@ -118,39 +115,35 @@ span {
 
 
 
-/*Advanced Search page styles*/
+/*----------------------------Advanced Search page styles----------------*/
 
+/*headers*/
 .find-pages-header {
     font-size: 16px;
     text-align: end;
 }
 
 .information-header {
-    font-size: 13px;
-    color: #777777;
+    font-size: 11px;
+    color: #666666;
     font-weight: bold;
 }
+
+/*Navigation bar*/
 .adv-nav-bar {
     height: 60px;
     background-color: #f2f2f2;
     
 }
-.adv-forn-container {
-    
+
+/*Form container*/
+.adv-form-container {
     margin-left: 50px;
     margin-top: 50px;
 }
 
-.label-column{
- text-align: right;
 
-}
-
-.more-info-text {
-    font-size: 11px;
-    color: #666666;
-}
-
+/*input and submit styles*/
 .adv-text-input {
     width: 550px;
     height: 30px;
@@ -158,6 +151,7 @@ span {
     font-size: 13px;
     border-radius: 0%;
     margin-bottom: 15px;
+
 }
 
 .adv-submit {
@@ -183,13 +177,10 @@ span {
 }
 
 
-/*advanced search page google logo*/
+/* google logo*/
 #adv-nav-bar-image{
     padding-left: 30px;
     padding-top: 5px;
 }
 
-/*Nav links margin*/
-#top-bar {
-    margin-right: 0;
-}
+
